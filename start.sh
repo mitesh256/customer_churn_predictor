@@ -3,4 +3,4 @@
 uvicorn api:app --host 127.0.0.1 --port 8000 &
 
 # 2. Frontend mein Streamlit ko chalao jo Render ke main port par open hoga
-streamlit run streamlit_app.py --server.port $PORT --server.address 0.0.0.0
+streamlit run app.py --server.port $PORT --server.address 0.0.0.0
